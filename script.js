@@ -3,7 +3,6 @@ document.getElementById('menuToggle').addEventListener('click', () => {
   nav.style.display = nav.style.display === 'flex' ? 'none' : 'flex';
 });
 
-// simple scroll reveal
 const observer = new IntersectionObserver(entries => {
   entries.forEach(e => {
     if (e.isIntersecting) {
